@@ -4,6 +4,7 @@ const textarea = document.getElementById("textarea");
 textarea.focus();
 
 textarea.addEventListener("keyup", (e) => {
+  //create
   createTags(e.target.value);
   if (e.key === "Enter") {
     setTimeout(() => {
